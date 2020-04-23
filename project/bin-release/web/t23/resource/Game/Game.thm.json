@@ -1,0 +1,29 @@
+{
+	"skins": {},
+	"autoGenerateExmlsList": true,
+	"exmls": [
+		"resource/eui_skins/ButtonSkin.exml",
+		"resource/eui_skins/CheckBoxSkin.exml",
+		"resource/eui_skins/HScrollBarSkin.exml",
+		"resource/eui_skins/HSliderSkin.exml",
+		"resource/eui_skins/ItemRendererSkin.exml",
+		"resource/eui_skins/PanelSkin.exml",
+		"resource/eui_skins/ProgressBarSkin.exml",
+		"resource/eui_skins/RadioButtonSkin.exml",
+		"resource/eui_skins/ScrollerSkin.exml",
+		"resource/eui_skins/TextInputSkin.exml",
+		"resource/eui_skins/ToggleSwitchSkin.exml",
+		"resource/eui_skins/VScrollBarSkin.exml",
+		"resource/eui_skins/VSliderSkin.exml",
+		"resource/Game/game_skins/Game_Page1Scene/Game_Page1Scene_Skin.exml",
+		"resource/gamemain/game_skins/ClassOverScene/GetStarScene_Skin.exml",
+		"resource/gamemain/game_skins/CommonDlg/CommonButton_Skin.exml",
+		"resource/gamemain/game_skins/CommonDlg/Dlg_CommonMovie_Skin.exml",
+		"resource/gamemain/game_skins/LoginSkin/EndView_Skin.exml",
+		"resource/gamemain/game_skins/LoginSkin/LoginView_h_Skin.exml",
+		"resource/gamemain/game_skins/LoginSkin/LoginView_Skin.exml",
+		"resource/gamemain/game_skins/LoginSkin/UserInfoView_h_Skin.exml",
+		"resource/gamemain/game_skins/LoginSkin/UserInfoView_Skin.exml"
+	],
+	"path": "resource/Game/Game.thm.json"
+}

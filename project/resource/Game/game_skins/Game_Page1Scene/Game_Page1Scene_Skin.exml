@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="Game_Page1Scene_Skin" width="1024" height="600" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:tween="egret.tween.*">
+    <e:Group id="group" width="1024" height="600">
+			<e:Rect width="1024" height="600" x="0" y="0" fillColor="0xb3e4f8"/>
+			<e:Rect id="time_mask" width="1024" height="600" x="0" y="0" anchorOffsetX="0" anchorOffsetY="0" fillAlpha="0" locked="true"/>
+
+			<e:Group id="gp_txt" x="12" y="22" scaleX="1" scaleY="1" anchorOffsetY="0" height="63">
+				<e:Image source="ui_json.img_22" x="0" y="0"/>
+			</e:Group>
+			<e:Image id="panleMask" x="-1.33" y="-2.66" scale9Grid="26,28,2,2" width="1026" height="606" source="ui_json.img_21" locked="true" visible="false"/>
+			<e:Label id="testurl" text="第0题" x="251" y="8.5" anchorOffsetX="0" width="181" anchorOffsetY="0" height="50" size="26" fontFamily="Microsoft YaHei" textAlign="center" verticalAlign="middle" bold="true" textColor="0x0451f7" locked="true"/>
+			<e:TextInput id="txt_input" width="137.51" height="53" x="641" y="14.5" anchorOffsetX="0" anchorOffsetY="0" skinName="skins.TextInputSkin" locked="true"/>
+
+			<e:Group id="gp_time" x="905" y="7" locked="true">
+				<e:Image source="ui_json.img_30" x="-1" y="7"/>
+				<e:Label id="time_txt_0" text="" x="6" y="26" anchorOffsetX="0" width="75" anchorOffsetY="0" height="52" size="48" fontFamily="" textColor="0xFFFF00" scaleX="1" scaleY="1" textAlign="center" verticalAlign="middle"/>
+			</e:Group>
+			<e:Group id="test_btn" x="844" y="35" anchorOffsetX="114.5" anchorOffsetY="40" scaleX="0.5" scaleY="0.5">
+				<e:Rect width="229" height="80" x="0" y="0" anchorOffsetX="0" anchorOffsetY="0" fillColor="0xac09f4"/>
+				<e:Label text="跳转" x="5" y="2" anchorOffsetX="0" width="220" anchorOffsetY="0" height="76" textAlign="center" verticalAlign="middle" size="40"/>
+			</e:Group>
+			<e:Group id="btn_ok" x="844" y="81" anchorOffsetX="114.5" anchorOffsetY="40" scaleX="0.5" scaleY="0.5">
+			<e:Rect width="229" height="80" x="0" y="0" anchorOffsetX="0" anchorOffsetY="0" fillColor="0x096cf4"/>
+			<e:Label text="显示答案" x="1" y="0" anchorOffsetX="0" width="224" anchorOffsetY="0" height="80" textAlign="center" verticalAlign="middle" size="40"/>
+		</e:Group>
+			<e:Image id="op_bg" source="ui_json.img_28" y="507" x="106" visible="false"/>
+
+
+			<e:Rect id="r_0" width="80" height="80" x="184.5" y="547" anchorOffsetX="40" anchorOffsetY="40" fillAlpha="0.5" visible="false"/>
+			<e:Rect id="r_1" width="80" height="80" x="315.4" y="547" anchorOffsetX="40" anchorOffsetY="40" fillAlpha="0.5" visible="false"/>
+			<e:Rect width="80" height="80" x="445.8" y="547" anchorOffsetX="40" anchorOffsetY="40" fillAlpha="0.5" id="r_2" visible="false"/>
+			<e:Rect width="80" height="80" x="576.2" y="547" anchorOffsetX="40" anchorOffsetY="40" fillAlpha="0.5" id="r_3" visible="false"/>
+			<e:Rect width="80" height="80" x="706.6" y="547" anchorOffsetX="40" anchorOffsetY="40" fillAlpha="0.5" id="r_4" visible="false"/>
+			<e:Rect width="80" height="80" x="837" y="547" anchorOffsetX="40" anchorOffsetY="40" fillAlpha="0.5" id="r_5" visible="false"/>
+			<e:Rect width="80" height="80" x="55.8" y="271" anchorOffsetX="40" anchorOffsetY="40" fillAlpha="0.5" id="r_6" locked="true" visible="false"/>
+			<e:Rect width="80" height="80" x="139.39" y="271" anchorOffsetX="40" anchorOffsetY="40" fillAlpha="0.5" id="r_7" locked="true" visible="false"/>
+			<e:Rect width="80" height="80" x="222.48" y="271" anchorOffsetX="40" anchorOffsetY="40" fillAlpha="0.5" id="r_8" locked="true" visible="false"/>
+			<e:Rect width="80" height="80" x="305.27" y="271" anchorOffsetX="40" anchorOffsetY="40" fillAlpha="0.5" id="r_9" locked="true" visible="false"/>
+			<e:Rect width="80" height="80" x="388.36" y="271" anchorOffsetX="40" anchorOffsetY="40" fillAlpha="0.5" id="r_10" locked="true" visible="false"/>
+			<e:Rect width="80" height="80" x="471.45" y="271" anchorOffsetX="40" anchorOffsetY="40" fillAlpha="0.5" id="r_11" locked="true" visible="false"/>
+			<e:Rect width="80" height="80" x="554.55" y="271" anchorOffsetX="40" anchorOffsetY="40" fillAlpha="0.5" id="r_12" locked="true" visible="false"/>
+			<e:Rect width="80" height="80" x="637.44" y="271" anchorOffsetX="40" anchorOffsetY="40" fillAlpha="0.5" id="r_13" locked="true" visible="false"/>
+			<e:Rect width="80" height="80" x="720.93" y="271" anchorOffsetX="40" anchorOffsetY="40" fillAlpha="0.5" id="r_14" locked="true" visible="false"/>
+			<e:Rect width="80" height="80" x="803.82" y="271" anchorOffsetX="40" anchorOffsetY="40" fillAlpha="0.5" id="r_15" locked="true" visible="false"/>
+			<e:Rect width="80" height="80" x="886.91" y="271" anchorOffsetX="40" anchorOffsetY="40" fillAlpha="0.5" id="r_16" locked="true" visible="false"/>
+			<e:Rect width="80" height="80" x="970" y="271" anchorOffsetX="40" anchorOffsetY="40" fillAlpha="0.5" id="r_17" locked="true" visible="false"/>
+
+			<e:Rect width="80" height="80" x="108.5" y="271" anchorOffsetX="40" anchorOffsetY="40" fillAlpha="0.5" id="r_18" visible="false" locked="true"/>
+			<e:Rect width="80" height="80" x="225.30714285714285" y="271" anchorOffsetX="40" anchorOffsetY="40" fillAlpha="0.5" id="r_19" visible="false" locked="true"/>
+			<e:Rect width="80" height="80" x="340.26428571428573" y="271" anchorOffsetX="40" anchorOffsetY="40" fillAlpha="0.5" id="r_20" visible="false" locked="true"/>
+			<e:Rect width="80" height="80" x="457.0114285714286" y="271" anchorOffsetX="40" anchorOffsetY="40" fillAlpha="0.5" id="r_21" visible="false" locked="true"/>
+			<e:Rect width="80" height="80" x="572.3585714285714" y="271" anchorOffsetX="40" anchorOffsetY="40" fillAlpha="0.5" id="r_22" visible="false" locked="true"/>
+			<e:Rect width="80" height="80" x="688.1057142857144" y="271" anchorOffsetX="40" anchorOffsetY="40" fillAlpha="0.5" id="r_23" visible="false" locked="true"/>
+			<e:Rect width="80" height="80" x="804.0528571428572" y="271" anchorOffsetX="40" anchorOffsetY="40" fillAlpha="0.5" id="r_24" visible="false" locked="true"/>
+			<e:Rect width="80" height="80" x="919.5" y="271" anchorOffsetX="40" anchorOffsetY="40" fillAlpha="0.5" id="r_25" visible="false" locked="true"/>
+			<e:Group id="gp_ok" x="913.67" y="498.35" width="100" height="100">
+				<e:Rect width="100" height="100" x="50" y="50" anchorOffsetX="50" anchorOffsetY="50" locked="true" visible="false"/>
+			</e:Group>
+			<e:Rect id="fru_0" width="120" height="132" x="72.5" y="156" anchorOffsetX="60" anchorOffsetY="66" fillAlpha="0.6" visible="false"/>
+			<e:Rect id="fru_1" width="120" height="114" x="201.5" y="156" anchorOffsetX="60" anchorOffsetY="57" fillAlpha="0.6" visible="false"/>
+			<e:Rect id="fru_2" width="120" height="114" x="342.36" y="156" anchorOffsetX="60" anchorOffsetY="57" fillAlpha="0.6" visible="false"/>
+			<e:Rect width="120" height="114" x="485" y="156" anchorOffsetX="60" anchorOffsetY="57" fillAlpha="0.6" id="fru_3" visible="false"/>
+			<e:Rect width="120" height="114" x="633" y="156" anchorOffsetX="60" anchorOffsetY="57" fillAlpha="0.6" id="fru_4" visible="false"/>
+			<e:Rect width="120" height="114" x="775.36" y="156" anchorOffsetX="60" anchorOffsetY="57" fillAlpha="0.6" id="fru_5" visible="false"/>
+			<e:Rect width="120" height="114" x="929" y="184.5" anchorOffsetX="60" anchorOffsetY="57" fillAlpha="0.6" id="fru_6" visible="false"/>
+			<e:Rect width="120" height="114" x="72.5" y="290.5" anchorOffsetX="60" anchorOffsetY="57" fillAlpha="0.6" id="fru_7" visible="false"/>
+			<e:Rect width="120" height="114" x="201.5" y="290.5" anchorOffsetX="60" anchorOffsetY="57" fillAlpha="0.6" id="fru_8" visible="false"/>
+			<e:Rect width="120" height="114" x="342.36" y="290.5" anchorOffsetX="60" anchorOffsetY="57" fillAlpha="0.6" id="fru_9" visible="false"/>
+			<e:Rect width="120" height="114" x="485" y="290.5" anchorOffsetX="60" anchorOffsetY="57" fillAlpha="0.6" id="fru_10" visible="false"/>
+			<e:Rect width="120" height="114" x="633" y="290.5" anchorOffsetX="60" anchorOffsetY="57" fillAlpha="0.6" id="fru_11" visible="false"/>
+			<e:Rect width="120" height="114" x="775.36" y="290.5" anchorOffsetX="60" anchorOffsetY="57" fillAlpha="0.6" id="fru_12" visible="false"/>
+			<e:Rect width="120" height="114" x="932" y="310" anchorOffsetX="60" anchorOffsetY="57" fillAlpha="0.6" id="fru_13" visible="false"/>
+			<e:Rect width="120" height="132" x="72.5" y="419" anchorOffsetX="60" anchorOffsetY="66" fillAlpha="0.6" id="fru_14" visible="false"/>
+			<e:Rect width="120" height="114" x="258.5" y="415" anchorOffsetX="60" anchorOffsetY="57" fillAlpha="0.6" id="fru_15" visible="false"/>
+			<e:Rect width="120" height="114" x="435.5" y="420" anchorOffsetX="60" anchorOffsetY="57" fillAlpha="0.6" id="fru_16" visible="false"/>
+			<e:Rect width="120" height="114" x="586" y="415" anchorOffsetX="60" anchorOffsetY="57" fillAlpha="0.6" id="fru_17" visible="false"/>
+			<e:Rect width="120" height="114" x="751" y="433" anchorOffsetX="60" anchorOffsetY="57" fillAlpha="0.6" id="fru_18" visible="false"/>
+			<e:Rect width="120" height="114" x="921" y="433" anchorOffsetX="60" anchorOffsetY="57" fillAlpha="0.6" id="fru_19" visible="false"/>
+
+			<e:Rect width="874" height="410" x="495" y="299" anchorOffsetX="437" anchorOffsetY="205" fillAlpha="0.5" locked="true" visible="false"/>
+			<e:Rect id="sh_0" width="120" height="120" x="94.6" y="300" anchorOffsetX="60" anchorOffsetY="60" visible="false"/>
+			<e:Rect width="120" height="120" x="261.3" y="300" anchorOffsetX="60" anchorOffsetY="60" id="sh_1" visible="false"/>
+			<e:Rect width="120" height="120" x="429.0000000000001" y="300" anchorOffsetX="60" anchorOffsetY="60" id="sh_2" visible="false"/>
+			<e:Rect width="120" height="120" x="595.2000000000002" y="300" anchorOffsetX="60" anchorOffsetY="60" id="sh_3" visible="false"/>
+			<e:Rect width="120" height="120" x="762.4000000000001" y="300" anchorOffsetX="60" anchorOffsetY="60" id="sh_4" visible="false"/>
+			<e:Rect width="120" height="120" x="928.96" y="300" anchorOffsetX="60" anchorOffsetY="60" id="sh_5" visible="false"/>
+			<e:Rect width="120" height="120" x="141.5" y="294" anchorOffsetX="60" anchorOffsetY="60" id="sh_6" locked="true" visible="false"/>
+			<e:Rect width="120" height="120" x="326" y="294" anchorOffsetX="60" anchorOffsetY="60" id="sh_7" visible="false"/>
+			<e:Rect width="120" height="120" x="510.8" y="294" anchorOffsetX="60" anchorOffsetY="60" id="sh_8" visible="false"/>
+			<e:Rect width="120" height="120" x="695.7" y="294" anchorOffsetX="60" anchorOffsetY="60" id="sh_9" visible="false"/>
+			<e:Rect width="120" height="120" x="879.96" y="294" anchorOffsetX="60" anchorOffsetY="60" id="sh_10" visible="false"/>
+			<e:Rect width="683" height="366" anchorOffsetX="341.5" anchorOffsetY="183" fillAlpha="0.5" x="512" y="329" visible="false" locked="true"/>
+			<e:Rect width="100" height="100" x="495" y="314" anchorOffsetX="50" anchorOffsetY="50" fillAlpha="0.5" id="txt3_1" visible="false" locked="true"/>
+			<e:Rect id="txt3_0" width="100" height="100" x="375.5" y="314" anchorOffsetX="50" anchorOffsetY="50" fillAlpha="0.5" visible="false"/>
+			<e:Rect width="100" height="100" x="615" y="314" anchorOffsetX="50" anchorOffsetY="50" fillAlpha="0.5" id="txt3_2" visible="false"/>
+
+			<e:Rect id="txt5_0" width="100" height="100" x="434" y="263.5" anchorOffsetX="50" anchorOffsetY="50" fillAlpha="0.5" visible="false"/>
+			<e:Rect width="100" height="100" x="554" y="263.5" anchorOffsetX="50" anchorOffsetY="50" fillAlpha="0.5" id="txt5_1" visible="false"/>
+			<e:Rect width="100" height="100" x="374.5" y="380" anchorOffsetX="50" anchorOffsetY="50" fillAlpha="0.5" id="txt5_2" visible="false"/>
+			<e:Rect width="100" height="100" x="494" y="380" anchorOffsetX="50" anchorOffsetY="50" fillAlpha="0.5" id="txt5_3" visible="false"/>
+			<e:Rect width="100" height="100" x="614" y="380" anchorOffsetX="50" anchorOffsetY="50" fillAlpha="0.5" id="txt5_4" visible="false"/>
+
+			<e:Rect width="214" height="100" x="737" y="217" anchorOffsetX="107" anchorOffsetY="50" fillAlpha="0.5" id="txt9_2" visible="false"/>
+			<e:Rect width="214" height="100" x="512" y="217" anchorOffsetX="107" anchorOffsetY="50" fillAlpha="0.5" id="txt9_1" visible="false"/>
+			<e:Rect id="txt9_0" width="214" height="100" x="287" y="217" anchorOffsetX="107" anchorOffsetY="50" fillAlpha="0.5" visible="false"/>
+			<e:Rect width="214" height="100" x="287" y="331.5" anchorOffsetX="107" anchorOffsetY="50" fillAlpha="0.5" id="txt9_3" visible="false"/>
+			<e:Rect width="214" height="100" x="510.86" y="331.5" anchorOffsetX="107" anchorOffsetY="50" fillAlpha="0.5" id="txt9_4" visible="false" locked="true"/>
+			<e:Rect width="214" height="100" x="737" y="331.5" anchorOffsetX="107" anchorOffsetY="50" fillAlpha="0.5" id="txt9_5" visible="false"/>
+			<e:Rect width="214" height="100" x="287" y="446" anchorOffsetX="107" anchorOffsetY="50" fillAlpha="0.5" id="txt9_6" visible="false"/>
+			<e:Rect width="214" height="100" x="514.36" y="446" anchorOffsetX="107" anchorOffsetY="50" fillAlpha="0.5" id="txt9_7" visible="false"/>
+			<e:Rect width="214" height="100" x="737" y="446" anchorOffsetX="107" anchorOffsetY="50" fillAlpha="0.5" id="txt9_8" locked="true" visible="false"/>
+
+			<e:Rect id="txt16_0" width="162" height="82" x="261" y="194" anchorOffsetX="81" anchorOffsetY="41" fillAlpha="0.5" visible="false"/>
+			<e:Rect width="162" height="82" x="429" y="194" anchorOffsetX="81" anchorOffsetY="41" fillAlpha="0.5" id="txt16_1" visible="false"/>
+			<e:Rect width="162" height="82" x="597" y="194" anchorOffsetX="81" anchorOffsetY="41" fillAlpha="0.5" id="txt16_2" visible="false"/>
+			<e:Rect width="162" height="82" x="765" y="194" anchorOffsetX="81" anchorOffsetY="41" fillAlpha="0.5" id="txt16_3" visible="false"/>
+			<e:Rect width="162" height="82" x="261" y="284" anchorOffsetX="81" anchorOffsetY="41" fillAlpha="0.5" id="txt16_4" visible="false"/>
+			<e:Rect width="162" height="82" x="429" y="283.16666666666663" anchorOffsetX="81" anchorOffsetY="41" fillAlpha="0.5" id="txt16_5" visible="false"/>
+			<e:Rect width="162" height="82" x="597" y="283.16666666666663" anchorOffsetX="81" anchorOffsetY="41" fillAlpha="0.5" id="txt16_6" visible="false"/>
+			<e:Rect width="162" height="82" x="765" y="283.66666666666663" anchorOffsetX="81" anchorOffsetY="41" fillAlpha="0.5" id="txt16_7" visible="false"/>
+			<e:Rect width="162" height="82" x="261" y="373" anchorOffsetX="81" anchorOffsetY="41" fillAlpha="0.5" id="txt16_8" visible="false"/>
+			<e:Rect width="162" height="82" x="429" y="372.8333333333333" anchorOffsetX="81" anchorOffsetY="41" fillAlpha="0.5" id="txt16_9" visible="false"/>
+			<e:Rect width="162" height="82" x="597" y="372.8333333333333" anchorOffsetX="81" anchorOffsetY="41" fillAlpha="0.5" id="txt16_10" visible="false"/>
+			<e:Rect width="162" height="82" x="765" y="373.3333333333333" anchorOffsetX="81" anchorOffsetY="41" fillAlpha="0.5" id="txt16_11" visible="false"/>
+			<e:Rect width="162" height="82" x="261" y="463" anchorOffsetX="81" anchorOffsetY="41" fillAlpha="0.5" id="txt16_12" visible="false"/>
+			<e:Rect width="162" height="82" x="429" y="463" anchorOffsetX="81" anchorOffsetY="41" fillAlpha="0.5" id="txt16_13" visible="false"/>
+			<e:Rect width="162" height="82" x="597" y="463" anchorOffsetX="81" anchorOffsetY="41" fillAlpha="0.5" id="txt16_14" visible="false"/>
+			<e:Rect width="162" height="82" x="765" y="463" anchorOffsetX="81" anchorOffsetY="41" fillAlpha="0.5" id="txt16_15" locked="true" visible="false"/>
+			<e:Image source="ui_1_json.img_sufg5" anchorOffsetX="341.5" anchorOffsetY="183" x="512.5" y="329" visible="false" locked="true"/>
+			<e:Rect id="r_73_0" width="186" height="167" x="216" y="358" anchorOffsetX="93" anchorOffsetY="167" locked="true" visible="false"/>
+			<e:Rect id="r_73_1" width="186" height="167" anchorOffsetX="93" anchorOffsetY="167" x="509.5" y="358" locked="true" visible="false"/>
+			<e:Rect id="r_73_2" width="186" height="167" x="803" y="358" anchorOffsetX="93" anchorOffsetY="167" visible="false" locked="true"/>
+			<e:Rect id="r_76_0" width="186" height="167" x="140.5" y="268" anchorOffsetX="93" anchorOffsetY="83.5" visible="false"/>
+			<e:Rect id="r_76_1" width="186" height="167" x="388" y="268" anchorOffsetX="93" anchorOffsetY="83.5" visible="false"/>
+			<e:Rect id="r_76_2" width="186" height="167" x="635" y="268" anchorOffsetX="93" anchorOffsetY="83.5" visible="false"/>
+			<e:Rect id="r_76_3" width="186" height="167" x="882" y="268" anchorOffsetX="93" anchorOffsetY="83.5" visible="false"/>
+			<e:Rect id="r_76_4" width="186" height="167" x="107" y="270" anchorOffsetX="93" anchorOffsetY="83.5" visible="false"/>
+			<e:Rect id="r_76_5" width="186" height="167" x="310" y="270" anchorOffsetX="93" anchorOffsetY="83.5" visible="false"/>
+			<e:Rect id="r_76_6" width="186" height="167" x="513" y="270" anchorOffsetX="93" anchorOffsetY="83.5" visible="false"/>
+			<e:Rect id="r_76_7" width="186" height="167" x="716" y="270" anchorOffsetX="93" anchorOffsetY="83.5" visible="false"/>
+			<e:Rect id="r_76_8" width="186" height="167" x="919" y="270" anchorOffsetX="93" anchorOffsetY="83.5" visible="false"/>
+			<e:Rect id="r_78_0" width="80" height="80" x="251" y="548" anchorOffsetX="40" anchorOffsetY="40" fillAlpha="0.5" visible="false"/>
+			<e:Rect id="r_78_1" width="80" height="80" x="428.5" y="546" anchorOffsetX="40" anchorOffsetY="40" fillAlpha="0.5" visible="false"/>
+			<e:Rect id="r_78_2" width="80" height="80" x="607" y="546" anchorOffsetX="40" anchorOffsetY="40" fillAlpha="0.5" visible="false"/>
+			<e:Rect id="r_78_3" width="80" height="80" x="785" y="548" anchorOffsetX="40" anchorOffsetY="40" fillAlpha="0.5" visible="false" locked="true"/>
+			<e:Rect id="r_sidai_0" width="30" height="303" x="135.5" y="252" anchorOffsetX="15" anchorOffsetY="151.5" visible="false"/>
+			<e:Rect width="30" height="303" x="261.5" y="252" anchorOffsetX="15" anchorOffsetY="151.5" id="r_sidai_1" visible="false"/>
+			<e:Rect width="30" height="303" x="387.36" y="252" anchorOffsetX="15" anchorOffsetY="151.5" id="r_sidai_2" visible="false"/>
+			<e:Rect width="30" height="303" x="512.5" y="252" anchorOffsetX="15" anchorOffsetY="151.5" id="r_sidai_3" visible="false"/>
+			<e:Rect width="30" height="303" x="638" y="252" anchorOffsetX="15" anchorOffsetY="151.5" id="r_sidai_4" visible="false"/>
+			<e:Rect width="30" height="303" x="763.5" y="252" anchorOffsetX="15" anchorOffsetY="151.5" id="r_sidai_5" visible="false"/>
+			<e:Rect width="30" height="303" x="889" y="252" anchorOffsetX="15" anchorOffsetY="151.5" id="r_sidai_6" visible="false"/>
+			<e:Rect id="r_numsidai_0" width="80" height="80" x="174" y="548" anchorOffsetX="40" anchorOffsetY="40" fillAlpha="0.5" visible="false"/>
+			<e:Rect id="r_numsidai_1" width="80" height="80" x="285.5" y="548" anchorOffsetX="40" anchorOffsetY="40" fillAlpha="0.5" visible="false"/>
+			<e:Rect id="r_numsidai_2" width="80" height="80" x="398" y="548" anchorOffsetX="40" anchorOffsetY="40" fillAlpha="0.5" visible="false"/>
+			<e:Rect id="r_numsidai_3" width="80" height="80" x="510" y="548" anchorOffsetX="40" anchorOffsetY="40" fillAlpha="0.5" visible="false"/>
+			<e:Rect id="r_numsidai_4" width="80" height="80" x="622" y="548" anchorOffsetX="40" anchorOffsetY="40" fillAlpha="0.5" visible="false"/>
+			<e:Rect id="r_numsidai_5" width="80" height="80" x="733.5" y="548" anchorOffsetX="40" anchorOffsetY="40" fillAlpha="0.5" visible="false"/>
+			<e:Rect id="r_numsidai_6" width="80" height="80" x="846" y="548" anchorOffsetX="40" anchorOffsetY="40" fillAlpha="0.5" visible="false"/>
+			<e:Rect id="r_sort80_0" width="936" height="398" x="512" y="297" fillAlpha="0.4" anchorOffsetX="468" anchorOffsetY="199" visible="false" locked="true"/>
+			<e:Rect id="r_hit80_0" width="60" height="60" x="74" y="297" anchorOffsetX="30" anchorOffsetY="30" fillAlpha="0.4" locked="true" visible="false"/>
+			<e:Rect width="60" height="60" x="394" y="273" anchorOffsetX="30" anchorOffsetY="30" fillAlpha="0.4" id="r_hit80_1" locked="true" visible="false"/>
+			<e:Rect width="60" height="60" x="685" y="296" anchorOffsetX="30" anchorOffsetY="30" fillAlpha="0.4" id="r_hit80_2" locked="true" visible="false"/>
+			<e:Rect width="60" height="60" x="225" y="466" anchorOffsetX="30" anchorOffsetY="30" fillAlpha="0.4" id="r_hit80_3" visible="false" locked="true"/>
+			<e:Rect width="60" height="60" x="509" y="466" anchorOffsetX="30" anchorOffsetY="30" fillAlpha="0.4" id="r_hit80_4" locked="true" visible="false"/>
+			<e:Rect width="60" height="60" x="814" y="466" anchorOffsetX="30" anchorOffsetY="30" fillAlpha="0.4" id="r_hit80_5" visible="false" locked="true"/>
+			<e:Rect id="r_hit81_0" width="60" height="60" x="285.5" y="320" anchorOffsetX="30" anchorOffsetY="30" fillAlpha="0.4" visible="false"/>
+			<e:Rect id="r_hit81_1" width="60" height="60" x="585" y="320" anchorOffsetX="30" anchorOffsetY="30" fillAlpha="0.4" visible="false"/>
+			<e:Rect width="60" height="60" x="869.36" y="320" anchorOffsetX="30" anchorOffsetY="30" fillAlpha="0.4" id="r_hit81_2" visible="false"/>
+			<e:Rect width="60" height="60" x="145" y="466" anchorOffsetX="30" anchorOffsetY="30" fillAlpha="0.4" id="r_hit81_3" visible="false"/>
+			<e:Rect width="60" height="60" x="444.36" y="466" anchorOffsetX="30" anchorOffsetY="30" fillAlpha="0.4" id="r_hit81_4" visible="false"/>
+			<e:Rect width="60" height="60" x="729" y="466" anchorOffsetX="30" anchorOffsetY="30" fillAlpha="0.4" id="r_hit81_5" visible="false" locked="true"/>
+			<e:Rect id="r_hit82_0" width="60" height="60" x="114" y="287" anchorOffsetX="30" anchorOffsetY="30" fillAlpha="0.4" visible="false" locked="true"/>
+			<e:Rect width="60" height="60" x="297" y="287" anchorOffsetX="30" anchorOffsetY="30" fillAlpha="0.4" id="r_hit82_1" visible="false" locked="true"/>
+			<e:Rect width="60" height="60" x="431.5" y="287" anchorOffsetX="30" anchorOffsetY="30" fillAlpha="0.4" id="r_hit82_2" visible="false" locked="true"/>
+			<e:Rect width="60" height="60" x="589" y="287" anchorOffsetX="30" anchorOffsetY="30" fillAlpha="0.4" id="r_hit82_3" visible="false" locked="true"/>
+			<e:Rect width="60" height="60" x="743" y="287" anchorOffsetX="30" anchorOffsetY="30" fillAlpha="0.4" id="r_hit82_4" visible="false" locked="true"/>
+			<e:Rect width="60" height="60" x="921" y="287" anchorOffsetX="30" anchorOffsetY="30" fillAlpha="0.4" id="r_hit82_5" visible="false" locked="true"/>
+
+			<e:Rect id="r_hit83_0" width="60" height="60" x="114" y="387" anchorOffsetX="30" anchorOffsetY="30" fillAlpha="0.4" visible="false"/>
+			<e:Rect width="60" height="60" x="272" y="387" anchorOffsetX="30" anchorOffsetY="30" fillAlpha="0.4" id="r_hit83_1" visible="false"/>
+			<e:Rect width="60" height="60" x="430" y="387" anchorOffsetX="30" anchorOffsetY="30" fillAlpha="0.4" id="r_hit83_2" visible="false"/>
+			<e:Rect width="60" height="60" x="588.5" y="387" anchorOffsetX="30" anchorOffsetY="30" fillAlpha="0.4" id="r_hit83_3" visible="false"/>
+			<e:Rect width="60" height="60" x="748" y="387" anchorOffsetX="30" anchorOffsetY="30" fillAlpha="0.4" id="r_hit83_4" visible="false"/>
+			<e:Rect width="60" height="60" x="906" y="387" anchorOffsetX="30" anchorOffsetY="30" fillAlpha="0.4" id="r_hit83_5" visible="false" locked="true"/>
+			<e:Rect id="r_hit84_0" width="60" height="60" x="106" y="383" anchorOffsetX="30" anchorOffsetY="30" fillAlpha="0.4" visible="false"/>
+			<e:Rect width="60" height="60" x="264.4" y="383" anchorOffsetX="30" anchorOffsetY="30" fillAlpha="0.4" id="r_hit84_1" visible="false"/>
+			<e:Rect width="60" height="60" x="423.1600000000001" y="383" anchorOffsetX="30" anchorOffsetY="30" fillAlpha="0.4" id="r_hit84_2" visible="false"/>
+			<e:Rect width="60" height="60" x="582.2" y="383" anchorOffsetX="30" anchorOffsetY="30" fillAlpha="0.4" id="r_hit84_3" visible="false"/>
+			<e:Rect width="60" height="60" x="740.6" y="383" anchorOffsetX="30" anchorOffsetY="30" fillAlpha="0.4" id="r_hit84_4" visible="false"/>
+			<e:Rect width="60" height="60" x="899" y="383" anchorOffsetX="30" anchorOffsetY="30" fillAlpha="0.4" id="r_hit84_5" visible="false"/>
+			<e:Label id="testurl0" text="" x="250" y="42" anchorOffsetX="0" width="181" anchorOffsetY="0" height="50" size="26" fontFamily="Microsoft YaHei" textAlign="center" verticalAlign="middle" bold="true" textColor="0xf41904" locked="true"/>
+			<e:Image source="ui_1_json.img_sufg5" x="172" y="132" visible="false" locked="true"/>
+			<e:Image source="ui_1_json.img_sufg4" anchorOffsetX="341.5" anchorOffsetY="183" x="512.5" y="329" visible="false" locked="true"/>
+			<e:Rect id="txt25_0" width="130" height="69" x="241" y="185" anchorOffsetX="65.11" anchorOffsetY="34.73" fillAlpha="0.5" visible="false"/>
+			<e:Rect id="txt25_1" width="130.22" height="69.46" x="377" y="185" anchorOffsetX="65.11" anchorOffsetY="34.73" fillAlpha="0.5" visible="false"/>
+			<e:Rect id="txt25_2" width="130.22" height="69.46" x="513" y="185" anchorOffsetX="65.11" anchorOffsetY="34.73" fillAlpha="0.5" visible="false"/>
+			<e:Rect id="txt25_3" width="130.22" height="69.46" x="649" y="185" anchorOffsetX="65.11" anchorOffsetY="34.73" fillAlpha="0.5" visible="false"/>
+			<e:Rect id="txt25_4" width="130.22" height="69.46" x="785" y="185" anchorOffsetX="65.11" anchorOffsetY="34.73" fillAlpha="0.5" visible="false"/>
+			<e:Rect id="txt25_5" width="130.22" height="69.46" x="241" y="257.5" anchorOffsetX="65.11" anchorOffsetY="34.73" fillAlpha="0.5" visible="false"/>
+			<e:Rect id="txt25_6" width="130.22" height="69.46" x="377" y="257.5" anchorOffsetX="65.11" anchorOffsetY="34.73" fillAlpha="0.5" visible="false"/>
+			<e:Rect id="txt25_7" width="130.22" height="69.46" x="513" y="257.5" anchorOffsetX="65.11" anchorOffsetY="34.73" fillAlpha="0.5" visible="false"/>
+			<e:Rect id="txt25_8" width="130.22" height="69.46" x="649" y="257.5" anchorOffsetX="65.11" anchorOffsetY="34.73" fillAlpha="0.5" visible="false"/>
+			<e:Rect id="txt25_9" width="130.22" height="69.46" x="785" y="257.5" anchorOffsetX="65.11" anchorOffsetY="34.73" fillAlpha="0.5" visible="false"/>
+			<e:Rect id="txt25_15" width="130.22" height="69.46" x="241" y="402.5" anchorOffsetX="65.11" anchorOffsetY="34.73" fillAlpha="0.5" visible="false"/>
+			<e:Rect id="txt25_16" width="130.22" height="69.46" x="377" y="402.5" anchorOffsetX="65.11" anchorOffsetY="34.73" fillAlpha="0.5" visible="false"/>
+			<e:Rect id="txt25_17" width="130.22" height="69.46" x="513" y="402.5" anchorOffsetX="65.11" anchorOffsetY="34.73" fillAlpha="0.5" visible="false"/>
+			<e:Rect id="txt25_18" width="130.22" height="69.46" x="649" y="402.5" anchorOffsetX="65.11" anchorOffsetY="34.73" fillAlpha="0.5" visible="false"/>
+			<e:Rect id="txt25_19" width="130.22" height="69.46" x="785" y="402.5" anchorOffsetX="65.11" anchorOffsetY="34.73" fillAlpha="0.5" visible="false"/>
+			<e:Rect id="txt25_11" width="130.22" height="69.46" x="377" y="330" anchorOffsetX="65.11" anchorOffsetY="34.73" fillAlpha="0.5" visible="false"/>
+			<e:Rect id="txt25_12" width="130.22" height="69.46" x="513" y="330" anchorOffsetX="65.11" anchorOffsetY="34.73" fillAlpha="0.5" visible="false"/>
+			<e:Rect id="txt25_13" width="130.22" height="69.46" x="649" y="330" anchorOffsetX="65.11" anchorOffsetY="34.73" fillAlpha="0.5" visible="false"/>
+			<e:Rect id="txt25_14" width="130.22" height="69.46" x="785" y="330" anchorOffsetX="65.11" anchorOffsetY="34.73" fillAlpha="0.5" visible="false"/>
+			<e:Rect id="txt25_10" width="130.22" height="69.46" x="241" y="330" anchorOffsetX="65.11" anchorOffsetY="34.73" fillAlpha="0.5" visible="false"/>
+			<e:Rect id="txt25_20" width="130.22" height="69.46" x="241" y="475" anchorOffsetX="65.11" anchorOffsetY="34.73" fillAlpha="0.5" visible="false"/>
+			<e:Rect id="txt25_21" width="130.22" height="69.46" x="377" y="475" anchorOffsetX="65.11" anchorOffsetY="34.73" fillAlpha="0.5" visible="false"/>
+			<e:Rect id="txt25_22" width="130.22" height="69.46" x="513" y="475" anchorOffsetX="65.11" anchorOffsetY="34.73" fillAlpha="0.5" visible="false"/>
+			<e:Rect id="txt25_23" width="130.22" height="69.46" x="649" y="475" anchorOffsetX="65.11" anchorOffsetY="34.73" fillAlpha="0.5" visible="false"/>
+			<e:Rect id="txt25_24" width="130.22" height="69.46" x="785" y="475" anchorOffsetX="65.11" anchorOffsetY="34.73" fillAlpha="0.5" visible="false"/>
+			<e:Rect id="begin_mask" width="1024" height="600" x="0" y="0" anchorOffsetX="0" anchorOffsetY="0" fillAlpha="0"/>
+    </e:Group>
+</e:Skin>

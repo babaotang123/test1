@@ -1,0 +1,40 @@
+{
+	"groups": [
+		{
+			"keys": "",
+			"name": "complete"
+		},
+		{
+			"keys": "Game_json,login_ui_json,txt_num_login_fnt,txt_num_login_png,22_png",
+			"name": "preload"
+		}
+	],
+	"resources": [
+		{
+			"url": "Game/assets/Game_preload/Game.json",
+			"type": "json",
+			"name": "Game_json"
+		},
+		{
+			"url": "gamemain/assets/preload/login_ui.json",
+			"type": "sheet",
+			"name": "login_ui_json",
+			"subkeys": "img_elm1,img_elm10,img_elm11,img_elm12,img_elm13,img_elm14,img_elm15,img_elm16,img_elm17,img_elm18,img_elm19,img_elm2,img_elm20,img_elm21,img_elm22,img_elm23,img_elm3,img_elm4,img_elm5,img_elm7,img_elm8,img_elm9"
+		},
+		{
+			"url": "gamemain/assets/preload/txt_num_login.fnt",
+			"type": "font",
+			"name": "txt_num_login_fnt"
+		},
+		{
+			"url": "gamemain/assets/preload/txt_num_login.png",
+			"type": "image",
+			"name": "txt_num_login_png"
+		},
+		{
+			"url": "gamemain/assets/preload/22.png",
+			"type": "image",
+			"name": "22_png"
+		}
+	]
+}

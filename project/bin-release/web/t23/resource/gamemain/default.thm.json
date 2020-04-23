@@ -1,0 +1,11 @@
+{
+	"skins": {
+		"eui.TextInput": "resource/eui_skins/TextInputSkin.exml"
+	},
+	"autoGenerateExmlsList": false,
+	"exmls": [
+		"resource/eui_skins/TextInputSkin.exml",
+		"resource/gamemain/game_skins/CommonDlg/Dlg_CommonMovie_Skin.exml"
+	],
+	"path": "resource/gamemain/default.thm.json"
+}

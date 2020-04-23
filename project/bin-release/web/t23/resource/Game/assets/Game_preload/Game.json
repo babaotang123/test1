@@ -1,0 +1,23 @@
+{
+    "courseware": [{
+            "name": "Game_Page1Scene",
+            "curLoad": "Game_page_scene1"
+        },
+        {
+            "name": "Mp3_load",
+            "curLoad": "Mp3_load"
+        },
+        {
+            "name": "UI_load_1",
+            "curLoad": "UI_load_1"
+        },
+        {
+            "name": "GetStarScene",
+            "curLoad": "complete",
+            "data": {
+                "starName": "Game_Preload_star_png",
+                "backIndex": 1
+            }
+        }
+    ]
+}

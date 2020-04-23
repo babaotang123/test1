@@ -1,0 +1,606 @@
+{
+	"groups": [
+		{
+			"keys": "",
+			"name": "Game_page_scene1"
+		},
+		{
+			"keys": "Game_json",
+			"name": "Game_preload"
+		},
+		{
+			"keys": "1_mp3,10_mp3,11_mp3,12_mp3,13_mp3,14_mp3,15_mp3,16_mp3,17_mp3,18_mp3,19_mp3,2_mp3,20_mp3,3_mp3,4_mp3,5_mp3,6_mp3,7_mp3,8_mp3,9_mp3,click_mp3",
+			"name": "Mp3_load_1"
+		},
+		{
+			"keys": "ui_1_json,ui_2_json",
+			"name": "UI_load_1"
+		},
+		{
+			"keys": "wen_tex_png,wen_ske_json,wen_tex_json,yddh_json,ui_json,djs_json,djs_0_json,okbtn_json,okbtn_png,wait_png,wait_json",
+			"name": "UI_load"
+		},
+		{
+			"keys": "21_mp3,22_mp3,23_mp3,24_mp3,25_mp3,26_mp3,27_mp3,28_mp3,29_mp3,30_mp3,31_mp3,32_mp3,33_mp3,34_mp3,35_mp3,36_mp3,37_mp3,38_mp3,39_mp3,40_mp3",
+			"name": "Mp3_load_2"
+		},
+		{
+			"keys": "41_mp3,42_mp3,43_mp3,44_mp3,45_mp3,46_mp3,47_mp3,48_mp3,49_mp3,50_mp3,51_mp3,52_mp3,53_mp3,54_mp3,55_mp3,56_mp3,57_mp3,58_mp3,59_mp3,60_mp3",
+			"name": "Mp3_load_3"
+		},
+		{
+			"keys": "61_mp3,62_mp3,63_mp3,64_mp3,65_mp3,66_mp3,67_mp3,68_mp3,69_mp3,70_mp3,71_mp3,72_mp3,73_mp3,74_mp3,75_mp3,76_mp3,77_mp3,78_mp3,79_mp3,80_mp3,81_mp3,82_mp3,83_mp3,84_mp3,85_mp3,86_mp3,87_mp3,88_mp3,89_mp3,90_mp3,91_mp3,92_mp3,93_mp3,94_mp3,95_mp3,96_mp3",
+			"name": "Mp3_load_4"
+		},
+		{
+			"keys": "",
+			"name": "Mp3_load_5"
+		}
+	],
+	"resources": [
+		{
+			"url": "Game/assets/Game_preload/Game.json",
+			"type": "json",
+			"name": "Game_json"
+		},
+		{
+			"url": "Game/assets/Game_page_scene1/wen_tex.png",
+			"type": "image",
+			"name": "wen_tex_png"
+		},
+		{
+			"url": "Game/assets/Game_page_scene1/wen_ske.json",
+			"type": "json",
+			"name": "wen_ske_json"
+		},
+		{
+			"url": "Game/assets/Game_page_scene1/wen_tex.json",
+			"type": "json",
+			"name": "wen_tex_json"
+		},
+		{
+			"url": "Game/assets/Game_page_scene1/yddh.json",
+			"type": "json",
+			"name": "yddh_json"
+		},
+		{
+			"url": "Game/assets/Game_page_scene1/ui_1.json",
+			"type": "sheet",
+			"name": "ui_1_json",
+			"subkeys": "img_Cross_Shape1,img_Cross_Shape10,img_Cross_Shape2,img_Cross_Shape3,img_Cross_Shape4,img_Cross_Shape5,img_Cross_Shape6,img_Cross_Shape7,img_Cross_Shape8,img_Cross_Shape9,img_Irregular1,img_Irregular10,img_Irregular11,img_Irregular12,img_Irregular13,img_Irregular14,img_Irregular2,img_Irregular3,img_Irregular4,img_Irregular5,img_Irregular6,img_Irregular7,img_Irregular8,img_Irregular9,img_Isotriangle1,img_Isotriangle10,img_Isotriangle11,img_Isotriangle2,img_Isotriangle3,img_Isotriangle4,img_Isotriangle5,img_Isotriangle6,img_Isotriangle7,img_Isotriangle8,img_Isotriangle9,img_Part1,img_Part10,img_Part11,img_Part12,img_Part13,img_Part14,img_Part15,img_Part16,img_Part17,img_Part18,img_Part19,img_Part2,img_Part20,img_Part21,img_Part22,img_Part23,img_Part24,img_Part25,img_Part26,img_Part27,img_Part28,img_Part29,img_Part3,img_Part30,img_Part31,img_Part32,img_Part33,img_Part34,img_Part35,img_Part36,img_Part37,img_Part38,img_Part39,img_Part4,img_Part40,img_Part41,img_Part42,img_Part43,img_Part44,img_Part45,img_Part46,img_Part47,img_Part48,img_Part49,img_Part5,img_Part50,img_Part51,img_Part52,img_Part53,img_Part54,img_Part55,img_Part56,img_Part6,img_Part7,img_Part8,img_Part9,img_Pie1,img_Pie10,img_Pie11,img_Pie12,img_Pie13,img_Pie14,img_Pie15,img_Pie16,img_Pie17,img_Pie18,img_Pie19,img_Pie2,img_Pie20,img_Pie21,img_Pie22,img_Pie23,img_Pie24,img_Pie3,img_Pie4,img_Pie5,img_Pie6,img_Pie7,img_Pie8,img_Pie9,img_Speed_Dial1,img_Speed_Dial2,img_Speed_Dial3,img_Speed_Dial4,img_Speed_Dial5,img_Speed_Dial6,img_Speed_Dial7,img_Speed_Dial8,img_Speed_Dial9,img_SymmetricShape1,img_SymmetricShape10,img_SymmetricShape2,img_SymmetricShape3,img_SymmetricShape4,img_SymmetricShape5,img_SymmetricShape6,img_SymmetricShape7,img_SymmetricShape8,img_SymmetricShape9,img_Triangle1,img_Triangle2,img_Triangle3,img_Triangle4,img_Triangle5,img_Triangle6,img_Triangle7,img_Triangle8,img_Triangle9,img_dice1,img_dice10,img_dice11,img_dice12,img_dice13,img_dice15,img_dice17,img_dice18,img_dice20,img_dice21,img_dice22,img_dice23,img_dice24,img_dice3,img_dice5,img_dice6,img_dice8,img_dice9,img_hand1,img_hand10,img_hand11,img_hand12,img_hand13,img_hand14,img_hand15,img_hand16,img_hand17,img_hand18,img_hand2,img_hand3,img_hand4,img_hand5,img_hand6,img_hand7,img_hand8,img_hand9,img_plygon1,img_plygon10,img_plygon11,img_plygon12,img_plygon13,img_plygon14,img_plygon15,img_plygon16,img_plygon17,img_plygon18,img_plygon2,img_plygon3,img_plygon4,img_plygon5,img_plygon6,img_plygon7,img_plygon8,img_plygon9,img_points1,img_points2,img_points3,img_points4,img_points5,img_points6,img_points7,img_points8,img_rotating1,img_rotating2,img_rotating3,img_rotating4,img_rotating5,img_rotating6,img_rotating7,img_rotating8,img_rotating9,img_sufg1,img_sufg2,img_sufg3,img_sufg4,img_sufg5,img_symmetry1,img_symmetry10,img_symmetry11,img_symmetry2,img_symmetry3,img_symmetry4,img_symmetry5,img_symmetry6,img_symmetry7,img_symmetry8,img_symmetry9,img_tao1,img_tao10,img_tao11,img_tao2,img_tao3,img_tao4,img_tao5,img_tao6,img_tao7,img_tao8,img_tao9"
+		},
+		{
+			"url": "Game/assets/Game_page_scene1/ui_2.json",
+			"type": "sheet",
+			"name": "ui_2_json",
+			"subkeys": "img_High1,img_High10,img_High2,img_High3,img_High4,img_High5,img_High6,img_High7,img_High8,img_High9,img_PerHigh1,img_PerHigh2,img_PerHigh3,img_PerHigh4,img_PerHigh5,img_PerHigh6,img_PerHigh7,img_PerHigh8,img_PerHigh9,img_bg_1,img_bg_2,img_btn_back,img_season1,img_season2,img_season3,img_season4,img_silk1,img_silk2,img_silk3,img_silk4,img_silk5,img_silk6,img_silk7,img_sort80,img_sort81,img_sort82,img_sort83,img_sort84,lev_0,lev_1,lev_2,lev_3"
+		},
+		{
+			"url": "Game/assets/Game_page_scene1/login.json",
+			"type": "sheet",
+			"name": "login_json"
+		},
+		{
+			"url": "Game/assets/Game_page_scene1/ui.json",
+			"type": "sheet",
+			"name": "ui_json",
+			"subkeys": "img_1,img_21,img_22,img_24,img_25,img_26,img_27,img_28,img_30,img_31,img_32,img_circle_cube1,img_circle_cube2,img_circle_cube3,img_circle_cube4,img_circle_cube5,img_circle_cube6,img_num_0,img_num_1,img_num_2,img_num_3,img_num_4,img_num_5,img_num_6,img_num_7,img_num_8,img_num_9,img_quan_bg,img_seesaw1,img_seesaw10,img_seesaw11,img_seesaw12,img_seesaw13,img_seesaw14,img_seesaw15,img_seesaw16,img_seesaw17,img_seesaw18,img_seesaw19,img_seesaw2,img_seesaw3,img_seesaw4,img_seesaw5,img_seesaw6,img_seesaw7,img_seesaw8,img_seesaw9,img_sortmore1,img_sortmore10,img_sortmore11,img_sortmore12,img_sortmore13,img_sortmore14,img_sortmore15,img_sortmore16,img_sortmore2,img_sortmore3,img_sortmore4,img_sortmore5,img_sortmore6,img_sortmore7,img_sortmore8,img_sortmore9,img_stone1,img_stone2,img_stone3,img_stone4,img_stone5,img_stone6"
+		},
+		{
+			"url": "Game/assets/AnimationLoad/djs.json",
+			"type": "json",
+			"name": "djs_json"
+		},
+		{
+			"url": "Game/assets/AnimationLoad/djs/djs_0.json",
+			"type": "sheet",
+			"name": "djs_0_json",
+			"subkeys": "i_1,i_2,i_3,i_4"
+		},
+		{
+			"url": "Game/assets/MP3_1/1.mp3",
+			"type": "sound",
+			"name": "1_mp3"
+		},
+		{
+			"url": "Game/assets/MP3_1/10.mp3",
+			"type": "sound",
+			"name": "10_mp3"
+		},
+		{
+			"url": "Game/assets/MP3_1/11.mp3",
+			"type": "sound",
+			"name": "11_mp3"
+		},
+		{
+			"url": "Game/assets/MP3_1/12.mp3",
+			"type": "sound",
+			"name": "12_mp3"
+		},
+		{
+			"url": "Game/assets/MP3_1/13.mp3",
+			"type": "sound",
+			"name": "13_mp3"
+		},
+		{
+			"url": "Game/assets/MP3_1/14.mp3",
+			"type": "sound",
+			"name": "14_mp3"
+		},
+		{
+			"url": "Game/assets/MP3_1/15.mp3",
+			"type": "sound",
+			"name": "15_mp3"
+		},
+		{
+			"url": "Game/assets/MP3_1/16.mp3",
+			"type": "sound",
+			"name": "16_mp3"
+		},
+		{
+			"url": "Game/assets/MP3_1/17.mp3",
+			"type": "sound",
+			"name": "17_mp3"
+		},
+		{
+			"url": "Game/assets/MP3_1/18.mp3",
+			"type": "sound",
+			"name": "18_mp3"
+		},
+		{
+			"url": "Game/assets/MP3_1/19.mp3",
+			"type": "sound",
+			"name": "19_mp3"
+		},
+		{
+			"url": "Game/assets/MP3_1/2.mp3",
+			"type": "sound",
+			"name": "2_mp3"
+		},
+		{
+			"url": "Game/assets/MP3_1/20.mp3",
+			"type": "sound",
+			"name": "20_mp3"
+		},
+		{
+			"url": "Game/assets/MP3_1/3.mp3",
+			"type": "sound",
+			"name": "3_mp3"
+		},
+		{
+			"url": "Game/assets/MP3_1/4.mp3",
+			"type": "sound",
+			"name": "4_mp3"
+		},
+		{
+			"url": "Game/assets/MP3_1/5.mp3",
+			"type": "sound",
+			"name": "5_mp3"
+		},
+		{
+			"url": "Game/assets/MP3_1/6.mp3",
+			"type": "sound",
+			"name": "6_mp3"
+		},
+		{
+			"url": "Game/assets/MP3_1/7.mp3",
+			"type": "sound",
+			"name": "7_mp3"
+		},
+		{
+			"url": "Game/assets/MP3_1/8.mp3",
+			"type": "sound",
+			"name": "8_mp3"
+		},
+		{
+			"url": "Game/assets/MP3_1/9.mp3",
+			"type": "sound",
+			"name": "9_mp3"
+		},
+		{
+			"url": "Game/assets/MP3_1/click.mp3",
+			"type": "sound",
+			"name": "click_mp3"
+		},
+		{
+			"url": "Game/assets/MP3_2/21.mp3",
+			"type": "sound",
+			"name": "21_mp3"
+		},
+		{
+			"url": "Game/assets/MP3_2/22.mp3",
+			"type": "sound",
+			"name": "22_mp3"
+		},
+		{
+			"url": "Game/assets/MP3_2/23.mp3",
+			"type": "sound",
+			"name": "23_mp3"
+		},
+		{
+			"url": "Game/assets/MP3_2/24.mp3",
+			"type": "sound",
+			"name": "24_mp3"
+		},
+		{
+			"url": "Game/assets/MP3_2/25.mp3",
+			"type": "sound",
+			"name": "25_mp3"
+		},
+		{
+			"url": "Game/assets/MP3_2/26.mp3",
+			"type": "sound",
+			"name": "26_mp3"
+		},
+		{
+			"url": "Game/assets/MP3_2/27.mp3",
+			"type": "sound",
+			"name": "27_mp3"
+		},
+		{
+			"url": "Game/assets/MP3_2/28.mp3",
+			"type": "sound",
+			"name": "28_mp3"
+		},
+		{
+			"url": "Game/assets/MP3_2/29.mp3",
+			"type": "sound",
+			"name": "29_mp3"
+		},
+		{
+			"url": "Game/assets/MP3_2/30.mp3",
+			"type": "sound",
+			"name": "30_mp3"
+		},
+		{
+			"url": "Game/assets/MP3_2/31.mp3",
+			"type": "sound",
+			"name": "31_mp3"
+		},
+		{
+			"url": "Game/assets/MP3_2/32.mp3",
+			"type": "sound",
+			"name": "32_mp3"
+		},
+		{
+			"url": "Game/assets/MP3_2/33.mp3",
+			"type": "sound",
+			"name": "33_mp3"
+		},
+		{
+			"url": "Game/assets/MP3_2/34.mp3",
+			"type": "sound",
+			"name": "34_mp3"
+		},
+		{
+			"url": "Game/assets/MP3_2/35.mp3",
+			"type": "sound",
+			"name": "35_mp3"
+		},
+		{
+			"url": "Game/assets/MP3_2/36.mp3",
+			"type": "sound",
+			"name": "36_mp3"
+		},
+		{
+			"url": "Game/assets/MP3_2/37.mp3",
+			"type": "sound",
+			"name": "37_mp3"
+		},
+		{
+			"url": "Game/assets/MP3_2/38.mp3",
+			"type": "sound",
+			"name": "38_mp3"
+		},
+		{
+			"url": "Game/assets/MP3_2/39.mp3",
+			"type": "sound",
+			"name": "39_mp3"
+		},
+		{
+			"url": "Game/assets/MP3_2/40.mp3",
+			"type": "sound",
+			"name": "40_mp3"
+		},
+		{
+			"url": "Game/assets/MP3_3/41.mp3",
+			"type": "sound",
+			"name": "41_mp3"
+		},
+		{
+			"url": "Game/assets/MP3_3/42.mp3",
+			"type": "sound",
+			"name": "42_mp3"
+		},
+		{
+			"url": "Game/assets/MP3_3/43.mp3",
+			"type": "sound",
+			"name": "43_mp3"
+		},
+		{
+			"url": "Game/assets/MP3_3/44.mp3",
+			"type": "sound",
+			"name": "44_mp3"
+		},
+		{
+			"url": "Game/assets/MP3_3/45.mp3",
+			"type": "sound",
+			"name": "45_mp3"
+		},
+		{
+			"url": "Game/assets/MP3_3/46.mp3",
+			"type": "sound",
+			"name": "46_mp3"
+		},
+		{
+			"url": "Game/assets/MP3_3/47.mp3",
+			"type": "sound",
+			"name": "47_mp3"
+		},
+		{
+			"url": "Game/assets/MP3_3/48.mp3",
+			"type": "sound",
+			"name": "48_mp3"
+		},
+		{
+			"url": "Game/assets/MP3_3/49.mp3",
+			"type": "sound",
+			"name": "49_mp3"
+		},
+		{
+			"url": "Game/assets/MP3_3/50.mp3",
+			"type": "sound",
+			"name": "50_mp3"
+		},
+		{
+			"url": "Game/assets/MP3_3/51.mp3",
+			"type": "sound",
+			"name": "51_mp3"
+		},
+		{
+			"url": "Game/assets/MP3_3/52.mp3",
+			"type": "sound",
+			"name": "52_mp3"
+		},
+		{
+			"url": "Game/assets/MP3_3/53.mp3",
+			"type": "sound",
+			"name": "53_mp3"
+		},
+		{
+			"url": "Game/assets/MP3_3/54.mp3",
+			"type": "sound",
+			"name": "54_mp3"
+		},
+		{
+			"url": "Game/assets/MP3_3/55.mp3",
+			"type": "sound",
+			"name": "55_mp3"
+		},
+		{
+			"url": "Game/assets/MP3_3/56.mp3",
+			"type": "sound",
+			"name": "56_mp3"
+		},
+		{
+			"url": "Game/assets/MP3_3/57.mp3",
+			"type": "sound",
+			"name": "57_mp3"
+		},
+		{
+			"url": "Game/assets/MP3_3/58.mp3",
+			"type": "sound",
+			"name": "58_mp3"
+		},
+		{
+			"url": "Game/assets/MP3_3/59.mp3",
+			"type": "sound",
+			"name": "59_mp3"
+		},
+		{
+			"url": "Game/assets/MP3_3/60.mp3",
+			"type": "sound",
+			"name": "60_mp3"
+		},
+		{
+			"url": "Game/assets/MP3_4/61.mp3",
+			"type": "sound",
+			"name": "61_mp3"
+		},
+		{
+			"url": "Game/assets/MP3_4/62.mp3",
+			"type": "sound",
+			"name": "62_mp3"
+		},
+		{
+			"url": "Game/assets/MP3_4/63.mp3",
+			"type": "sound",
+			"name": "63_mp3"
+		},
+		{
+			"url": "Game/assets/MP3_4/64.mp3",
+			"type": "sound",
+			"name": "64_mp3"
+		},
+		{
+			"url": "Game/assets/MP3_4/65.mp3",
+			"type": "sound",
+			"name": "65_mp3"
+		},
+		{
+			"url": "Game/assets/MP3_4/66.mp3",
+			"type": "sound",
+			"name": "66_mp3"
+		},
+		{
+			"url": "Game/assets/MP3_4/67.mp3",
+			"type": "sound",
+			"name": "67_mp3"
+		},
+		{
+			"url": "Game/assets/MP3_4/68.mp3",
+			"type": "sound",
+			"name": "68_mp3"
+		},
+		{
+			"url": "Game/assets/MP3_4/69.mp3",
+			"type": "sound",
+			"name": "69_mp3"
+		},
+		{
+			"url": "Game/assets/MP3_4/70.mp3",
+			"type": "sound",
+			"name": "70_mp3"
+		},
+		{
+			"url": "Game/assets/MP3_4/71.mp3",
+			"type": "sound",
+			"name": "71_mp3"
+		},
+		{
+			"url": "Game/assets/MP3_4/72.mp3",
+			"type": "sound",
+			"name": "72_mp3"
+		},
+		{
+			"url": "Game/assets/MP3_4/73.mp3",
+			"type": "sound",
+			"name": "73_mp3"
+		},
+		{
+			"url": "Game/assets/MP3_4/74.mp3",
+			"type": "sound",
+			"name": "74_mp3"
+		},
+		{
+			"url": "Game/assets/MP3_4/75.mp3",
+			"type": "sound",
+			"name": "75_mp3"
+		},
+		{
+			"url": "Game/assets/MP3_4/76.mp3",
+			"type": "sound",
+			"name": "76_mp3"
+		},
+		{
+			"url": "Game/assets/MP3_4/77.mp3",
+			"type": "sound",
+			"name": "77_mp3"
+		},
+		{
+			"url": "Game/assets/MP3_4/78.mp3",
+			"type": "sound",
+			"name": "78_mp3"
+		},
+		{
+			"url": "Game/assets/MP3_4/79.mp3",
+			"type": "sound",
+			"name": "79_mp3"
+		},
+		{
+			"url": "Game/assets/MP3_4/80.mp3",
+			"type": "sound",
+			"name": "80_mp3"
+		},
+		{
+			"url": "Game/assets/MP3_5/81.mp3",
+			"type": "sound",
+			"name": "81_mp3"
+		},
+		{
+			"url": "Game/assets/MP3_5/82.mp3",
+			"type": "sound",
+			"name": "82_mp3"
+		},
+		{
+			"url": "Game/assets/MP3_5/83.mp3",
+			"type": "sound",
+			"name": "83_mp3"
+		},
+		{
+			"url": "Game/assets/MP3_5/84.mp3",
+			"type": "sound",
+			"name": "84_mp3"
+		},
+		{
+			"url": "Game/assets/MP3_5/85.mp3",
+			"type": "sound",
+			"name": "85_mp3"
+		},
+		{
+			"url": "Game/assets/MP3_5/86.mp3",
+			"type": "sound",
+			"name": "86_mp3"
+		},
+		{
+			"url": "Game/assets/MP3_5/87.mp3",
+			"type": "sound",
+			"name": "87_mp3"
+		},
+		{
+			"url": "Game/assets/MP3_5/88.mp3",
+			"type": "sound",
+			"name": "88_mp3"
+		},
+		{
+			"url": "Game/assets/MP3_5/89.mp3",
+			"type": "sound",
+			"name": "89_mp3"
+		},
+		{
+			"url": "Game/assets/MP3_5/90.mp3",
+			"type": "sound",
+			"name": "90_mp3"
+		},
+		{
+			"url": "Game/assets/MP3_5/91.mp3",
+			"type": "sound",
+			"name": "91_mp3"
+		},
+		{
+			"url": "Game/assets/MP3_5/92.mp3",
+			"type": "sound",
+			"name": "92_mp3"
+		},
+		{
+			"url": "Game/assets/MP3_5/93.mp3",
+			"type": "sound",
+			"name": "93_mp3"
+		},
+		{
+			"url": "Game/assets/MP3_5/94.mp3",
+			"type": "sound",
+			"name": "94_mp3"
+		},
+		{
+			"url": "Game/assets/MP3_5/95.mp3",
+			"type": "sound",
+			"name": "95_mp3"
+		},
+		{
+			"url": "Game/assets/MP3_5/96.mp3",
+			"type": "sound",
+			"name": "96_mp3"
+		},
+		{
+			"url": "Game/assets/Game_page_scene1/okbtn.png",
+			"type": "image",
+			"name": "okbtn_png"
+		},
+		{
+			"url": "Game/assets/Game_page_scene1/okbtn.json",
+			"type": "json",
+			"name": "okbtn_json"
+		},
+		{
+			"url": "Game/assets/Game_page_scene1/wait.png",
+			"type": "image",
+			"name": "wait_png"
+		},
+		{
+			"url": "Game/assets/Game_page_scene1/wait.json",
+			"type": "json",
+			"name": "wait_json"
+		}
+	]
+}

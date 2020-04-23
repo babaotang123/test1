@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="EndView_Skin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:tween="egret.tween.*">
+<e:Group width="1024" height="600">
+	<e:Image source="ui_2_json.img_bg_1" x="0" y="0"/>
+	<e:Image source="ui_2_json.img_bg_2" x="434" y="310"/>
+	<e:Label id="score_txt" text="50" x="206" y="123" anchorOffsetY="0" height="37" textAlign="right" size="35" anchorOffsetX="0" width="62.69" verticalAlign="bottom" scaleX="1.23"/>
+	<e:Label id="time_txt_0" text="1" x="228" y="218" anchorOffsetY="0" height="32" textAlign="center" size="35" anchorOffsetX="0" width="57" verticalAlign="bottom"/>
+	<e:Label id="time_txt_1" text="2" x="334" y="218" anchorOffsetY="0" height="32" textAlign="center" size="35" anchorOffsetX="0" width="57" verticalAlign="bottom"/>
+	<e:Image id="levImg" source="ui_2_json.lev_0" x="798" y="169"/>
+	<e:Label id="age" text="年龄" x="94" y="318" anchorOffsetX="0" width="229" anchorOffsetY="0" height="37"/>
+	<e:Label id="dui" text="年龄" x="94" y="359" anchorOffsetX="0" width="229" anchorOffsetY="0" height="37"/>
+	<e:Label id="cuo" text="年龄" x="94" y="400" anchorOffsetX="0" width="229" anchorOffsetY="0" height="37"/>
+	<e:Label id="time" text="年龄" x="94" y="436" anchorOffsetX="0" width="229" anchorOffsetY="0" height="37"/>
+</e:Group>
+</e:Skin>

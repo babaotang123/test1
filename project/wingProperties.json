@@ -1,0 +1,14 @@
+{
+    "resourcePlugin": {
+        "configs": [{
+                "configPath": "resource/gamemain/default.res.json",
+                "relativePath": "resource/"
+            },
+            {
+                "configPath": "resource/Game/Game.res.json",
+                "relativePath": "resource/"
+            }
+        ]
+    },
+    "theme": "resource/default.thm.json"
+}

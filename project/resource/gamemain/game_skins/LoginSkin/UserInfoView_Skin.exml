@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="UserInfoView_Skin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:tween="egret.tween.*">
+	<e:Group width="1024" height="600">
+		<e:Image x="0" y="0" height="600" width="1024" source="login_ui_json.img_elm7" locked="true"/>
+		<e:Image y="0" x="332" source="login_ui_json.img_elm1" locked="true"/>
+		<e:Image y="8.5" x="437" source="login_ui_json.img_elm3" locked="true"/>
+		<e:Image id="img_0" source="login_ui_json.img_elm4" x="428" y="133.42"/>
+
+		<e:Image id="img_1" source="login_ui_json.img_elm4" x="428" y="273.42"/>
+		<e:Image source="login_ui_json.img_elm10" x="268" y="134"/>
+		<e:Image source="login_ui_json.img_elm8" x="268" y="206"/>
+		<e:Image source="login_ui_json.img_elm9" x="268" y="278"/>
+		<e:Image source="login_ui_json.img_elm4" x="430" y="201"/>
+		<e:Group id="sexgp_1" x="435" y="204.5">
+			<e:Image id="sexbg_1" x="-4.5" y="-4" source="login_ui_json.img_elm14" visible="false"/>
+			<e:Label id="sex_1" text="男" x="4" y="6" width="93" height="28" size="28" textAlign="center" verticalAlign="middle" textColor="0xafafaf"/>
+		</e:Group>
+		<e:Group id="sexgp_2" x="554" y="204.5">
+			<e:Image id="sexbg_2" x="-4.5" y="-3.5" source="login_ui_json.img_elm14" visible="false"/>
+			<e:Label id="sex_2" text="女" x="4" y="5" size="28" textAlign="center" verticalAlign="middle" anchorOffsetX="0" width="93" textColor="0xafafaf"/>
+		</e:Group>
+		<e:Label id="tips_0" text="" x="677" y="138.42" anchorOffsetX="0" width="230" anchorOffsetY="0" height="31" textColor="0xF40000" fontFamily="ziti" size="20" verticalAlign="middle"/>
+		<e:Label id="tips_2" text="" x="677" y="207.42" anchorOffsetX="0" width="337" anchorOffsetY="0" height="31" textColor="0xf40000" fontFamily="ziti" size="20" verticalAlign="middle"/>
+		<e:Label id="tips_1" text="" x="677" y="279.42" anchorOffsetX="0" width="230" anchorOffsetY="0" height="31" textColor="0xF40000" fontFamily="ziti" size="20" verticalAlign="middle"/>
+		<e:Button id="btn_ok" label="" y="320" x="435">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="login_ui_json.img_elm16" source.down="login_ui_json.img_elm17"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+
+	</e:Group>
+
+</e:Skin>
